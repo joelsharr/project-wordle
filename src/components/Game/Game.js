@@ -21,6 +21,7 @@ function Game() {
     <>
       <GuessResults
         guesses={guesses}
+        correctWord={answer}
       />
       <GuessInput
         updateGuesses={updateGuesses}
